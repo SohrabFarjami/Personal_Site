@@ -1,0 +1,26 @@
+
+
+
+#bordergroup{
+  display:flex;
+  justify-content: space-around;
+  gap:15vh;
+}
+
+
+.guitarborder {
+    width: 35vw;
+  height: 80vh;
+  border: 3px solid rgb(255, 255, 255); 
+  border-radius: 40px;
+   box-shadow: 21px 19px 14px 1px #0c0c0c;
+   background-color: rgb(129, 129, 129);
+}
+
+.pianoborder {
+    width: 35vw;
+    height: 80vh;
+    border: 3px solid rgb(255, 255, 255); 
+  border-radius: 40px;
+  box-shadow: 21px 19px 14px 1px #0c0c0c;
+}
