@@ -27,7 +27,7 @@ export const Test = () => {
                 <div id="professoricon">
                 </div>
                 <div id='information'>
-                    <h2>Elon Musk </h2>
+                    <h15>Elon Musk </h15>
                     <h3>Koc University</h3>
                     <div id="classgroup">
                         <button onClick={handleClick} className='classicon' id='button1'>
