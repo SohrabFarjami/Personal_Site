@@ -15,12 +15,14 @@ const Box = () => {
 
   };
   return (
-    <Link to = '/experimental' id = {CSS.secondbigcard}      
+    < div id = {CSS.secondbigcard}      
           onMouseOver={handleMouseOver}
-          onMouseOut={handleMouseOut}>
-        {!isHovering && <h1> I Stole This Hover Effect Off a Youtuber</h1>}
-        {isHovering && <h1> Click to see what im working on right now</h1>}
-    </Link>
+          onMouseOut={handleMouseOut} > 
+        <Link to = '/experimental'>
+          {!isHovering && <h1> I Stole This Hover Effect Off a Youtuber</h1>}
+          {isHovering && <h1> Click on this text to see what im working on right now</h1>}
+        </Link>
+    </div>
 
   )
 }
