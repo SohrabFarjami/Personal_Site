@@ -14,7 +14,10 @@ export const Guitar = () => {
 
 
         <section id = {CSS.sectiontwo}>
+        <Link to ='/experimental'>  
              <Box/>
+             npm install -S react-router-bootstrap 
+        </Link>
         </section>
 
 
