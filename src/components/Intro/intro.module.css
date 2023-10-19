@@ -51,11 +51,6 @@ body {
     transition: transform 400ms cubic-bezier(.05,.43,.25,.95);
     background-color:white;
   }
-    
-.groupicon:hover .iconsmall:not(:hover){
-    transform:scale(0.8);
-    opacity:0.5;
-  }
 
 
   

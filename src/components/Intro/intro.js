@@ -6,11 +6,9 @@ import bg from '../../assets/elon.png';
 import experimental from '../../assets/experimental.png'
 import {Link} from 'react-router-dom';
 
-
 const Intro = () => {
   return (
             <div className={IntroCSS.groupicon}>
-
                 <Link to="/hobbies">
                 <div className={IntroCSS.iconsmall}>
                     <img src={guitar}className={IntroCSS.bg} />
