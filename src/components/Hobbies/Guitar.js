@@ -1,6 +1,7 @@
 import React from 'react'
 import CSS from './Guitar.module.css'
 import Box from './components/Box'
+import { Link } from 'react-router-dom'
 
 
 export const Guitar = () => {
@@ -14,10 +15,7 @@ export const Guitar = () => {
 
 
         <section id = {CSS.sectiontwo}>
-        <Link to ='/experimental'>  
              <Box/>
-             npm install -S react-router-bootstrap 
-        </Link>
         </section>
 
 
