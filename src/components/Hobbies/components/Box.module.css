@@ -1,0 +1,48 @@
+#secondbigcard:after {
+    background: linear-gradient(
+      transparent,
+      mediumslateblue,
+      transparent
+    );
+    height: 70px;
+    width: 1px;
+    position:absolute;
+    left: -1px;
+    top: 65%;
+    content: '';
+    transition: top 600ms ease, opacity 600ms ease;
+    opacity: 0;
+  }
+  
+  
+  #secondbigcard:hover:after {
+    top: 25%;
+    opacity: 1;
+  }
+  
+  h1{
+    color:rgb(125, 125, 125);
+  }
+
+
+  #secondbigcard {
+    background: rgb(19, 19, 19);
+    display:flex;
+    position:relative;
+    width: clamp(300px, 30%, 2000px);
+    height: 30dvh;
+    border: rgba(74, 74, 74, 0.4) solid 1px;
+    position:relative;
+    background-image: radial-gradient(
+      rgba(146, 146, 146, 0.15) 1px, 
+      transparent 1px
+    );
+    background-position: 50% 50%;
+    background-size: 1rem 1rem;
+    padding: 4rem;
+    border-radius: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+  }
+  

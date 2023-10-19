@@ -1,5 +1,7 @@
 import React from 'react'
 import CSS from './Guitar.module.css'
+import Box from './components/Box'
+
 
 export const Guitar = () => {
 
@@ -12,9 +14,7 @@ export const Guitar = () => {
 
 
         <section id = {CSS.sectiontwo}>
-            < div id = {CSS.secondbigcard}>
-                <h1> I Stole This Hover Effect Off a Youtuber</h1>
-            </div>
+             <Box/>
         </section>
 
 
