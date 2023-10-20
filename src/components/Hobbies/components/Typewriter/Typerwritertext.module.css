@@ -1,0 +1,10 @@
+
+  
+div {
+    background: #FFFFFF;
+    background: linear-gradient(to bottom right, #FFFFFF 40%, #494949 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:red;
+  }
+  

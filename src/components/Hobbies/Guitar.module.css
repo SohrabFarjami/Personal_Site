@@ -7,6 +7,7 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+
 .bigtext{
   position: absolute;
   top: 40%;
@@ -17,15 +18,6 @@ html {
   text-align: center;
   
 }
-
-h {
-  background: #FFFFFF;
-  background: linear-gradient(to bottom right, #FFFFFF 40%, #494949 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
 section {
   height: 100vh;
   scroll-snap-align: start;
@@ -43,9 +35,11 @@ section {
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 
 button {
   color:white;
 }
+

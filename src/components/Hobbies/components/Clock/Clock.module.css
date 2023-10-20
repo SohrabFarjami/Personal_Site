@@ -1,0 +1,146 @@
+:root{
+    --size: 150px;
+}
+
+.container{
+    display:flex;
+}
+
+.clockgroup{
+    position:relative;
+    width: var(--size);
+    height: var(--size);
+    border-radius:50%;
+    outline:2px solid rgb(123, 123, 123);
+    background-color: rgb(20, 20, 20);
+
+}
+
+.clock {
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../../assets/clock.png);
+    background-size: cover;
+    position:absolute;
+}
+
+
+.clock::before{
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+    z-index:1000;
+
+}
+
+
+.clock .hour,
+.clock .min,
+.clock .sec
+{
+    position: absolute;
+}
+
+.clock .hour, .hr{
+    width: calc(var(--size)*0.4);
+    height: calc(var(--size)*0.4);
+}
+
+.clock .min, .mn{
+    width: calc(var(--size)*0.5);
+    height: calc(var(--size)*0.5);
+}
+
+.clock .sec, .sc{
+    width: calc(var(--size) * 0.7);
+    height: calc(var(--size) * 0.7);
+}
+
+.hr, .mn, .sc{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    border-radius:50%;
+}
+
+.hr:before{
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 50%;
+    background: #ff105e;
+    z-index: 10;
+    border-radius:6px 6px 0 0;
+}
+
+
+.mn:before{
+    content:'';
+    position: absolute;
+    width: 4px;
+    height: 50%;
+    background: #ffF;
+    z-index: 11;
+    border-radius:6px 6px 0 0;
+
+}
+
+.sc:before{
+    content:'';
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background: #ffF;
+    z-index: 11;
+    border-radius:6px 6px 0 0;
+
+}
+
+
+.clockgroup:hover .clock{
+    opacity:0;
+}
+
+
+
+.digital {
+    width: calc(var(--size) * 0.9) ;
+    height: calc(var(--size) * 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    border-radius:50%;
+    opacity:0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.clockgroup:hover .digital{
+    opacity:1;
+    transition: 1s ease-in-out;
+}
+
+
+
+span {
+    font-size: 180%;
+}
+
+h14{
+    font-size:100%;
+}
+
+
+.digitalclockday {
+    color :#ff105e;
+}
