@@ -3,7 +3,6 @@ import CSS from './Guitar.module.css'
 import Box from './components/Box'
 import { Link } from 'react-router-dom'
 import Clock from './components/Clock/Clock'
-import Typerwriter from './components/Typewriter/Typerwritertext'
 
 export const Guitar = () => {
   const sentence = 'Im still building the site '
