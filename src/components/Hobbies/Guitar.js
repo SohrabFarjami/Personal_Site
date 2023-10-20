@@ -9,7 +9,7 @@ export const Guitar = () => {
   return (
       <div>
         <section id={CSS.peepee}    >
-          <div className={CSS.bigtext}> <h>IM A SLEEK LITTLE BOY OHH MAH GAWDDD. WHAT DA WHAT DA DOG DOING THO????</h></div>
+          <div className={CSS.bigtext}> <h>IM A SLEEK LITTLE BOY OHH MAH GAWDDD. WHAT DA WHAT DA DOG DOING THO???ss?</h></div>
           </section>
         <section id = {CSS.sectiontwo}>
              <Clock/>

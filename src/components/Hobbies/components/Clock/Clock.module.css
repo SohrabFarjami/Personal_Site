@@ -144,3 +144,28 @@ h14{
 .digitalclockday {
     color :#ff105e;
 }
+
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    
+    .clockgroup:active .clock{
+        opacity:0;
+    }
+
+    
+    .clockgroup:active .digital{
+        opacity:1;
+        transition: 1s ease-in-out;
+    }
+
+    .digital:active{
+        opacity:0;
+        transition: 1s ease-in-out;
+    }
+
+    .digital:active .clock{
+        opacity:1;
+    }
+    
+    
+}
